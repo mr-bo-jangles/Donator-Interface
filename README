@@ -1,0 +1,48 @@
+The Donator Interface - A donator interface and management system for Source game servers and various Forum Systems.
+Copyright (C) 2012 Werner "Arrow768" Maisl
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+The Background Story:
+This Programm has been written to provide a Donator Interface at Sourcebans
+But there had been a lot of requests to implement other Systems, like Forums.
+
+
+There are a lot of Integrations aviable now:
+Sourcebans - http://www.sourcebans.net/
+Basic Donator Interface - https://forums.alliedmods.net/showthread.php?t=145542&highlight=Basic+Donator+Interface
+MyBB - http://www.mybb.com/
+SMF - http://www.simplemachines.org/
+
+
+Recommendet Integrations:
+You should use the Basic Donator Interface, instead of Sourcebans !
+The BDI is very easy to setup and it is made for DONATION and not for BANS
+At the BDI you have 9 Donator Levels aviable
+At Sourcebans you have only 6 Custom Flags
+
+You should use SMF or MyBB as your Forum-System.
+The Integrations for these Systems are more advanced than the integtaion for other Systems (for example: VBulletin)
+
+
+Support:
+If you need Support open a Ticket at the Support-System: http://hfc.pf-control.de/support
+
+You can also, check the Allied Modders Forum Thread: https://forums.alliedmods.net/showthread.php?t=194019
+Use the Search Function to check if your Question has been Answered already.
+
+
+Donations:
+If you like this Software, please consider a Donation
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MRLDQLHBNVXHU
