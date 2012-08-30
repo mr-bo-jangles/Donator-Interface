@@ -30,7 +30,7 @@ switch ($_GET['action']) {
           $p->add_field('return', $this_script.'?action=success');
           $p->add_field('cancel_return', $this_script.'?action=cancel');
           $p->add_field('notify_url', $this_script.'?action=ipn_pp');
-          $p->add_field('item_name', $pp_usage . " Your Donation is reset after ". $donation_reset_time . " Days");
+          $p->add_field('item_name', "Reminder: Your donation is reset after ". $donation_reset_time . " Days");
           $p->add_field('amount', $pp_ammount );
           $p->add_field('currency_code', $pp_currency);
           $p->add_field('rm','2');           // Return method = POST

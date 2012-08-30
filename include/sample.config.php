@@ -66,24 +66,24 @@ $pp_url = 'https://www.paypal.com/cgi-bin/webscr';
  * https://www.paypal.com/cgi-bin/webscr
  */
 
-$pp_email = 'donation@hfc.pf-control.de'; //Your Paypal-Email
+$pp_email = ''; //Your Paypal-Email
 /* Your PayPal-Email
  * Enter the PayPal-Email, where you want to recieve the donations * 
  */
 
-$pp_currency = 'EUR'; 
+$pp_currency = 'GBP'; 
 /* The Currency, you would like to recieve.
  * See https://cms.paypal.com/cms_content/US/en_US/files/developer/PP_WebsitePaymentsStandard_IntegrationGuide.pdf Appendix D
  * for Valid Codes
  * Examples: EUR USD
  */
 
-$pp_ammount = '10'; 
+$pp_ammount = '2'; 
 /* The Ammount you would like to Recieve
  * This is the Ammount you would like to recieve in the above selected Currency
  */
 
-$pp_name = 'Your Service Name';
+$pp_name = '';
 /* This variable is Used to tell PG the name of your pg service
  * Example:
  * XYZ Community Donation System
@@ -94,19 +94,19 @@ $pp_name = 'Your Service Name';
 /*payGol - SMS Payment Provider*/
 $pg_url = "http://www.paygol.com/micropayment/paynow_post";
 
-$pg_serviceid = "36984";
+$pg_serviceid = "";
 /* The ID of you PayGol Service
  */
 
-$pg_currency = "EUR";
+$pg_currency = "GBP";
 /* The Currency, you would like to recieve.
  */
 
-$pg_name = "Donation-System-Test";
+$pg_name = "";
 /* The Name That shoud be shown
  */
 
-$pg_price = "10";
+$pg_price = "2";
 /* The Ammount you would like to recieve
  */
 
@@ -137,19 +137,19 @@ $mail_smtp_password = ''; // NA
  * 
  */
 
-$mail_from_address = 'donation@hfc-pf-control.de';
+$mail_from_address = '';
 /* The FROM address in the Mail
  * Example:
  * donation@provider.com
  */
 
-$mail_from_name = 'Test Donation System';
+$mail_from_name = 'Donation System';
 /* The name of the Person/System who sent the mail
  * Example:
  * XYZ-Community Donation System 
  */
 
-$inform_email = 'donation@hfc.pf-control.de';
+$inform_email = '';
 /* The E-Mail where the Payment Message should be sent to
  * Example:
  * paymentnot@provider.com
@@ -187,7 +187,7 @@ $mysql_don_database = "";
 
 /** Site Config **/
 
-$your_community_name = "XYZ-Community";
+$your_community_name = "";
 /* The name of your Community,
  * it is used in the Answer-Mail, when you have recieved the payment
  */
@@ -209,14 +209,14 @@ $donation_reset_time = 30;
  * This setting is shown at paypal, to prefent fraud from the admins of this script
  */
 
-$payment_success_url = "http://vpfastdl.pf-control.de/projects/testing/smf";
+$payment_success_url = "";
 /* This is the Payment Success URL
  * Your Users will be redirected here if they have payed at your Payment Provider
  * If they have payed, it does not mean, that you have recieved the money, so dont put any Dono-Only Functions at this URL
  * I recommend putting a Description Site at this URL, where you describe what abilitys they have and when the donation exceeds
  */
 
-$payment_cancel_url = "http://vpfastdl.pf-control.de/projects/testing/smf";
+$payment_cancel_url = "";
 /* This is the Payment Cancel URL
  * You Users will be ridirceted to that URL, if they have NOT payed / or they have canceled the payment
  * I recommend putting a Page there, where you ask them, if they want to try it again or if they need help
